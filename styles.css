@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #212121;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.box{
+	padding: 20px;
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+	background-color: rgb(84, 84, 84);
+	margin-top: 50px;
+	border-radius: 20px;
+	-webkit-box-shadow: -3px 2px 21px 4px rgba(44,44,44,0.79); 
+	box-shadow: -3px 2px 21px 4px rgba(44,44,44,0.79);
+}
+
+.img{
+	float: left;
+}
+
+.text{
+	text-align: center;
+	font-family: Staatliches;
+	font-size: 36px;
+	color: white;
+}
+
+.sizeC{
+	font-size: 27px;
+}
+
+.subtext{
+	text-align: center;
+	font-size: 12px;
+	display: block;
+	font-family: Arial;
+
+}
+
+
+h1{
+	font-family: Staatliches;
+	text-align: center;
+	font-size: 56px;
+	color: black;
+}
+
+h5{
+	text-align: center;
+	font-family: Staatliches;
+}
