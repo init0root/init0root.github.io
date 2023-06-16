@@ -1,0 +1,130 @@
+@font-face{
+	font-family: jbold;
+	src: url('./fonts/jbold.otf');
+}
+
+@font-face{
+	font-family: jregular;
+	src: url('./fonts/jregular.otf');
+}
+
+.sText{
+	font-family: jregular;
+	color: white;
+	text-align: center;
+	font-size: 11px;
+
+}
+
+#infoArea{
+	width: 100%;
+	overflow: hidden;
+	padding: 6px;
+}
+
+.stdButton{
+	background-image: url('btn.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5px;
+	background-color: #535907;
+	overflow: hidden;
+	height: 86px;
+	font-family: jregular;
+	color: white;
+	margin-top: 20px;
+	border-radius: 6px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: rgb(128,128,128, 0.5);
+}
+
+.h1{
+	font-family: jregular;
+	color: white;
+	font-size: 24px;
+
+}
+
+#stdBtn{
+	font-family: jBold;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+		background-color:#1B1C14;
+
+	display: inline-block;
+}
+
+
+#modal{
+	height: 60vh;
+	visibility: hidden;
+	margin-top: 0px;
+	border-radius: 10px;
+	left: 50%;
+	overflow-y: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	word-wrap: break-word;
+	transform: translate(-50%, 0);;
+	position: fixed;
+	background-color: #535903;
+	width: 96%;
+	padding: 5px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: rgb(128,128,128, 0.5);
+}
+
+
+
+
+
+#headerDiv{
+	border-top-style: solid;
+	border-top-width: 7px;
+	border-top-color: #535907;
+	text-align: center;
+	overflow: hidden;
+}
+
+#min{
+	font-family: jbold;
+	font-size: 30px;
+}
+
+body{
+	background-color:#1B1C14;
+}
+
+#countdown{
+	color: #535907;
+	font-family: jbold;
+	font-size: 30px;
+}
+*{
+	
+	box-sizing: border-box;
+	font-family:'capitain';
+}
+
+#header{
+	background-color: #535907;
+	padding: 40px;
+}
+
+#main{
+	background-color: purple;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.stdBlock{
+	background-color: green;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 6px;
+}
+
