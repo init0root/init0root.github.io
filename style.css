@@ -3,6 +3,31 @@
 	src: url('./fonts/jbold.otf');
 }
 
+.pub{
+	width: 100%;
+	overflow: hidden;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	color: black;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 10px 51px 0px rgba(89,89,89,0.45);
+-moz-box-shadow: 0px 10px 51px 0px rgba(89,89,89,0.45);
+box-shadow: 0px 10px 51px 0px rgba(89,89,89,0.45);
+
+}
+
+svg:active{
+	fill: #535907;
+}
+
+#controls{
+	width: 100%;
+	padding : 6px;
+	overflow: hidden;
+}
+
 @font-face{
 	font-family: jregular;
 	src: url('./fonts/jregular.otf');
@@ -54,6 +79,19 @@
 		background-color:#1B1C14;
 
 	display: inline-block;
+}
+
+.stdBlock1{
+	width: 90%;
+	color: white;
+	display: inline-block;
+	font-family: jregular;
+	margin-top: 5px;
+	background-color: #1B1C14;
+	padding: 5px;
+	border-radius: 6px;
+	border-style: solid;
+	border-color: rgb(128,128,128,0.5);
 }
 
 
