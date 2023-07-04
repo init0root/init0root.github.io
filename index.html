@@ -8,25 +8,47 @@
 </head>
 <body>
    <div class="modal" id="p1">
-        <div onclick="closeModal(this)" id="stdBtn" style="color: white;">X</div>
+      <img src="imgs/thumbnail.png" width="120">
         <h2 style="font-family: NBold; color: white; padding: 5px;">O que é território?</h2>
         <p class="stdText">Terrotório é o lugar onde há aplicação do ordenamento jurídico, a base física em que está fixado o elemento humano. É nele que o governo pode exercer a sua organização e validar suas normas jurídicas. Constitui-se do solo, subsolo, aguas territoriais, ilhas, rios, lagos, portos, mar e espaço aéreo.</p>
         <br>
         <br>
-        
+        <div class="question">
+           <h2 class="quest">Qual o país com maior extensão territorial do mundo?</h2>
+           <button sel = "0" class="Rquest" rep="ru" onclick="quizz(this)">Rússia</button>
+           <button sel="0" class="Rquest" rep="chi" onclick="quizz(this)">China</button>
+           <button sel = "0" class="Rquest" rep="ang" onclick="quizz(this)">Angola</button>
+        </div>
+        <br>
+        <button onclick="closeModal(this)" style="color: white;" id="closebtn">Próximo episódio</button>
+
 
         
         </div>
    </div>
    <div class="modal" id="p2">
-        <div onclick="closeModal(this)" id="stdBtn" style="color: white">X</div>
-        <h2 style="font-family: NBold; color: white;">Oque é territorio?</h2>
-        <div class="blur">
-         <!-- <div class="stdBlock1">
-            <img src="MT.svg" width='60'>
-            <p style="display: inline-block; font-size: 22px;">903.357km²</p>
-         </div> -->
+        <h2 style="font-family: NBold; color: white; padding: 5px">Oque é uma nação sem território?</h2>
+        <p class="stdText">Uma nação sem território é um povo que apesar de estabelecido em relação a ter seu próprio povo, cultura, crenças e até mesmo um líder de estado, não possui sua própria base física, ou seja, vive em um território geopolítico que pertence a outra nação.  </p>
+        <img src="imgs/dagues.png" width="100%" style="border-radius: 10px">
+        <br>
+        <p class="stdText" style="font-size: 12px">Outro exemplo de nação sem território é o Daguestão, que fica a apenas 297km de distância da chechênia.</p>
+         <div onclick="closeModal(this)" id="closebtn" style="color: white">Próximo episódio</div>
+
+   </div>
+   <div class="modal" id="p3">
+        <h2 style="font-family: NBold; color: white; padding: 5px">Oque é a chechênia?</h2>
+        <p class="stdText">A Chechênia é um território que atualmente é denominado como uma república pertencente à federação russa. Por se tratar de uma república, a Chechênia tem autonomia para fomentar sua etnia própria (que não é de origem russa), tendo assim seu idioma, sua bandeira e sua constituição. Entretanto, mesmo sendo uma república, a Chechênia não é considerada (nem pelos russos nem pelo restante do mundo) uma nação independente, e esse é o principal fator desencadeador dos conflitos sociais naquela região.</p>
+        <div class="question">
+           <h2 class="quest">Qual o nome do líder da república chechêna?</h2>
+           <img src="imgs/ramzan.jpg" width="280px" style="border-radius: 10px; display: block; margin: 10px auto;">
+           <button sel = "1" class="Rquest" rep="ram" onclick="quizz(this)">Ramzan Kadyrov</button>
+           <button sel="1" class="Rquest" rep="isl" onclick="quizz(this)">Islam Makhachev</button>
+           <button sel = "1" class="Rquest" rep="ago" onclick="quizz(this)">Agostinho Carrara</button>
         </div>
+        <br>
+        <br>
+       <div onclick="closeModal(this)" id="closebtn" style="color: white">Próximo episódio</div>
+
    </div>
 
    <div class="presentation">
@@ -35,8 +57,9 @@
    <div class="pName">
       <h5 id="ep">EPISÓDIO 1</h5>
       <h1 id="titleEP">O QUE É TERRITÓRIO?</h1>
-      <p class="info">Os balões abaixo são interativos. Clique para obter informações extras</p>
-      <p class="midInfo">GUERRA</p>
+      <p class="midInfo">GUERRA</p> 
+      <p class="midInfo">TERRITÓRIO</p>
+      <p class="midInfo">SUPERAÇÃO</p>
    </div>
    <button class="mainBtn" onclick="start()">INICIAR</button>
    <button onclick="start()">teste</button>
