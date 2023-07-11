@@ -23,6 +23,7 @@
 	src: url('fonts/NetflixSans-Regular.otf');
 }
 
+
 .question{
 	width: 100%;
 	border-radius: 7px;
@@ -31,6 +32,15 @@
 	overflow: hidden;
 }
 
+.mainBtn:active{
+	background-color: rgb(127,127,127,0.5);
+	color: black;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
 
 .Rquest{
 	width: 100%;
@@ -75,6 +85,9 @@
 body{
 	background-color: black;
 }
+
+
+
 
 .presentation{
 	margin: auto;
@@ -168,4 +181,17 @@ h1{
 	padding: 10px;
 	border-width: 2px;
 	border-color: rgb(128,128,128, 1.0);
+	animation:fadein .5s;
+
 }
+
+@keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+

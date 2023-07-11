@@ -1,3 +1,8 @@
+if(window.innerWidth > 699){
+	window.open('two.html',"_self")
+}
+
+
 var counter
 
 var topics = [{
@@ -19,6 +24,41 @@ var topics = [{
 	"title":"O QUE É A CHECHÊNIA?",
 	"topic":"p3",
 	"image":"t3.png"
+},
+
+{
+	"ep":"EPISÓDIO 4",
+	"title":"FORMAÇÃO DA CHECHÊNIA E PORQUÊ ELA NÃO TEM TERRITÓRIO PRÓPRIO?",
+	"topic":"p4",
+	"image":"t4.png"
+},
+
+{
+	"ep":"EPISÓDIO 5",
+	"title":"SITUAÇÃO ATUAL DA CHECHÊNIA",
+	"topic":"p5",
+	"image":"t5.png"
+},
+
+{
+	"ep":"EPISÓDIO 6",
+	"title":"ANALISE CRITICA",
+	"topic":"p6",
+	"image":"t3.png"
+},
+
+{
+	"ep":"EPISÓDIO EXTRA",
+	"title":"HISTÓRIAS DE SUPERAÇÃO",
+	"topic":"p7",
+	"image":"t9.png"
+},
+
+{
+	"ep": "CRÉDITOS",
+	"title":"CRÉDITOS",
+	"topic":"p8",
+	"image":"t10.png"
 }
 
 ]
@@ -30,21 +70,26 @@ var questions = [{
 
 {
 	"repV": "ram"
+},
+
+{
+	"repV": "gros"
 }
 
 ]
 
-function quizz(rep){
+var count = 0;
 
+function quizz(rep){  
   if(rep.getAttribute("rep") == "ago"){
   	alert("kkkkkkkkkk.")
   }
   if(rep.getAttribute("rep") == questions[parseInt(rep.getAttribute("sel"))].repV){
   	rep.style="background-color: rgb(0,127,0,0.5);"
-  	clicked = 1;
+  	alert("Parabéns, você acertou. O desenvolvedor é preguiçoso, então a tela de parabéns vai ser essa")
   }else{
   	rep.style="background-color: rgb(255,0,0,0.5);"
-  	clicked = 1;
+  	alert("tu é ruim viu macho.")
   }
  
 
